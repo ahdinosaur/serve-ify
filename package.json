@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "serve browserify app",
   "main": "index.js",
-  "cli": {
+  "bin": {
     "serve-ify": "./cli.js"
   },
   "scripts": {
