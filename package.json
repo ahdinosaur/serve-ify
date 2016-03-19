@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "serve browserify app",
   "main": "index.js",
-  "cli": "./cli.js",
+  "cli": {
+    "serve-ify": "./cli.js"
+  },
   "scripts": {
     "test": "tape test.js"
   },
