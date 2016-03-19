@@ -1,6 +1,6 @@
 {
   "name": "serve-ify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "serve browserify app",
   "main": "index.js",
   "bin": {
