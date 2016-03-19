@@ -1,0 +1,32 @@
+{
+  "name": "serve-ify",
+  "version": "1.0.0",
+  "description": "serve browserify app",
+  "main": "index.js",
+  "cli": "./cli.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahdinosaur/serve-ify.git"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahdinosaur/serve-ify/issues"
+  },
+  "homepage": "https://github.com/ahdinosaur/serve-ify#readme",
+  "dependencies": {
+    "bankai": "^2.0.2",
+    "bole": "^2.0.0",
+    "browserify": "^13.0.0",
+    "http-ndjson": "^3.0.0",
+    "minimist": "^1.2.0",
+    "pull-http": "^1.0.1",
+    "pull-stream": "^3.2.0",
+    "server-router": "^1.1.5",
+    "server-summary": "^5.0.1",
+    "sheetify": "^5.0.0"
+  }
+}
